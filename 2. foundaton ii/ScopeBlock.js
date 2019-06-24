@@ -2,7 +2,7 @@
 
 if (true) {
   var a = "var variable"; // can access aywere
-  const b = "const varibale"; // only accessable inside the if block
+  const b = "const varibale"; // only accessable inside the if block, let variables are also works same
 }
 
 console.log(a); // it will work
