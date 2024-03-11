@@ -3,11 +3,13 @@
 // by using this keyword we can share common methods between objects
 // this can also be := who called me
 
+
 function printName() {
   console.log(this == global, this.name);
 }
 
 var name = "kiran";
+console.log("this", name);
 printName(); // op : true undefind/kiran (incase of node / incase of browser, true beacuse printName called with global context)
 
 const obj1 = {
